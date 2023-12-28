@@ -1,13 +1,7 @@
-import logo from "./logo.svg";
-import "./App.css";
-import SearchBar from "./components/SearchBar";
+import React from "react";
 
-function App() {
-  return (
-    <>
-      <SearchBar />
-    </>
-  );
-}
+const App = () => {
+  return <div>App</div>;
+};
 
 export default App;
