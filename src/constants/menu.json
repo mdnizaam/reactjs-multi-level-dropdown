@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Electronics",
+    "icon": "📱",
+    "childrens": [
+      {
+        "title": "Smartphones",
+        "icon": "📱",
+        "path": "/smartphones"
+      },
+      {
+        "title": "Laptops",
+        "icon": "💻",
+        "path": "/Laptops"
+      },
+      {
+        "title": "Cameras",
+        "icon": "📷",
+        "childrens": [
+          {
+            "title": "Canon DSLR",
+            "icon": "📷",
+            "path": "/Canon-DSLR"
+          },
+          {
+            "title": "Nekon DSLR",
+            "icon": "📷",
+            "path": "/Nekon-DSLR"
+          },
+          {
+            "title": "Camera Lens",
+            "icon": "🎥",
+            "path": "/Camera-Lens"
+          }
+        ]
+      },
+      {
+        "title": "FAQ",
+        "icon": "🇶",
+        "path": "/FAQ"
+      }
+    ]
+  },
+  {
+    "title": "Clothing",
+    "icon": "👕",
+    "childrens": [
+      {
+        "title": "Men's Apparel",
+        "path": "/Mens"
+      },
+      {
+        "title": "Women's Apparel",
+        "path": "/Womens"
+      },
+      {
+        "title": "Kids' Clothing",
+        "path": "/Kids-Clothing"
+      },
+      {
+        "title": "Sportswear",
+        "path": "/Sportswear"
+      }
+    ]
+  },
+  {
+    "title": "Home & Living",
+    "icon": "🏡",
+    "childrens": [
+      {
+        "title": "Furniture",
+        "path": "/Furniture"
+      },
+      {
+        "title": "Decor",
+        "icon": "🖼️",
+        "childrens": [
+          {
+            "title": "Kitchen Appliances",
+            "path": "/Furniture"
+          },
+          {
+            "title": "Home Furniture",
+            "icon": "🛋️ ",
+            "childrens": [
+              {
+                "title": "Double Bed",
+                "path": "/Furniture"
+              },
+              {
+                "title": "Single Bed",
+                "path": "/Furniture"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Decor Lights",
+        "path": "/Decor"
+      }
+    ]
+  },
+
+  {
+    "title": "Support",
+    "icon": "📞",
+    "path": "/support"
+  },
+  {
+    "title": "Report Bug",
+    "icon": "🐞",
+    "path": "/report-bug"
+  },
+  {
+    "title": "User",
+    "icon": "👨‍🦱",
+    "childrens": [
+      {
+        "title": "Edit Profile",
+        "path": "/Edit-Profile"
+      },
+      {
+        "title": "Logout",
+        "path": "/Logout"
+      }
+    ]
+  }
+]
