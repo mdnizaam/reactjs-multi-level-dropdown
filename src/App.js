@@ -3,11 +3,9 @@ import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
-    <div className="h-[100vh] flex ">
+    <div className="h-[100vh] flex">
       <Sidebar />
-      <div className="w-full flex justify-center items-center">
-        Main Contents
-      </div>
+      <div>Main Content</div>
     </div>
   );
 };

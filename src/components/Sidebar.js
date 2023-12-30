@@ -1,12 +1,12 @@
 import React from "react";
-import MENUITEMS from "../constants/menu.json";
-import SidebarItems from "./SidebarItems";
+import SidebarItem from "./SidebarItem";
+import MENU from "../constants/menu.json";
 
 const Sidebar = () => {
   return (
-    <div className="w-[300px] bg-[#ffffff] text-[#000] h-full overflow-auto">
-      {MENUITEMS?.map((item, index) => (
-        <SidebarItems key={index} item={item} />
+    <div className="w-[300px] bg-[#ffffff] text-[#000] h-full overflow-auto block">
+      {MENU.map((items, index) => (
+        <SidebarItem key={index} items={items} />
       ))}
     </div>
   );
